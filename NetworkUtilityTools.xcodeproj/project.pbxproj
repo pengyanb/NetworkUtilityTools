@@ -7,13 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5414384E4390590E4553F590 /* Pods_NetworkUtilityTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA4433F6AFB6AC3DEC1F247E /* Pods_NetworkUtilityTools.framework */; };
+		B802072D1C3762B000856461 /* UpnpCheckerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802072C1C3762B000856461 /* UpnpCheckerViewController.swift */; };
+		B802072F1C3762CF00856461 /* ServiceMonitorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B802072E1C3762CF00856461 /* ServiceMonitorViewController.swift */; };
+		B80207311C37636D00856461 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80207301C37636D00856461 /* Reachability.swift */; };
+		B80207331C37682400856461 /* UpnpChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80207321C37682400856461 /* UpnpChecker.swift */; };
+		B80207351C37683800856461 /* ServiceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80207341C37683800856461 /* ServiceMonitor.swift */; };
+		B808F7091C26362F00133DE3 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B808F7081C26362F00133DE3 /* Protocols.swift */; };
+		B81610F21C2B4C42008575DD /* TraceRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81610F11C2B4C42008575DD /* TraceRoute.swift */; };
+		B81748631C01AE5C00C9FE2C /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81748621C01AE5C00C9FE2C /* SwiftSpinner.swift */; };
+		B81D910F1C29F66A004B85E8 /* PingResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81D910E1C29F66A004B85E8 /* PingResult.swift */; };
+		B82716311C288B25009F00BE /* UtilityFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82716301C288B25009F00BE /* UtilityFunctions.swift */; };
+		B82716341C28C660009F00BE /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = B82716331C28C660009F00BE /* SimplePing.m */; };
+		B82716361C28C9E5009F00BE /* PingTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82716351C28C9E5009F00BE /* PingTool.swift */; };
 		B837F68D1BE0379B00BE5347 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B837F68C1BE0379B00BE5347 /* AppDelegate.swift */; };
-		B837F68F1BE0379B00BE5347 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B837F68E1BE0379B00BE5347 /* ViewController.swift */; };
-		B837F6921BE0379B00BE5347 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B837F6901BE0379B00BE5347 /* Main.storyboard */; };
+		B837F68F1BE0379B00BE5347 /* UdpListenerOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B837F68E1BE0379B00BE5347 /* UdpListenerOptionsViewController.swift */; };
 		B837F6941BE0379B00BE5347 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B837F6931BE0379B00BE5347 /* Assets.xcassets */; };
 		B837F6971BE0379B00BE5347 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B837F6951BE0379B00BE5347 /* LaunchScreen.storyboard */; };
 		B837F6A21BE0379B00BE5347 /* NetworkUtilityToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B837F6A11BE0379B00BE5347 /* NetworkUtilityToolsTests.swift */; };
 		B837F6AD1BE0379B00BE5347 /* NetworkUtilityToolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B837F6AC1BE0379B00BE5347 /* NetworkUtilityToolsUITests.swift */; };
+		B837F6CB1BE0394D00BE5347 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B837F6C81BE0394D00BE5347 /* GCDAsyncSocket.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		B837F6CC1BE0394D00BE5347 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B837F6CA1BE0394D00BE5347 /* GCDAsyncUdpSocket.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		B837F6CE1BE03A0400BE5347 /* UdpListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = B837F6CD1BE03A0400BE5347 /* UdpListener.swift */; };
+		B844B5931C54815B00ED4445 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B844B5921C54815B00ED4445 /* iAd.framework */; };
+		B84813F91C6B388900A28E32 /* WhatsMyIpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84813F81C6B388900A28E32 /* WhatsMyIpViewController.swift */; };
+		B8586A541C1D4DF700ABBA3D /* TcpServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8586A531C1D4DF700ABBA3D /* TcpServer.swift */; };
+		B85F3FDF1C2E824F00E2E0A1 /* PingToolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F3FDE1C2E824F00E2E0A1 /* PingToolViewController.swift */; };
+		B85F3FE11C2E827000E2E0A1 /* TraceRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F3FE01C2E827000E2E0A1 /* TraceRouteViewController.swift */; };
+		B880FF5B1BF33695008E6253 /* UdpCapturedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B880FF5A1BF33695008E6253 /* UdpCapturedInfo.swift */; };
+		B893B9BA1C1E6F8C00809BB7 /* SideMenuPanelContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893B9B91C1E6F8C00809BB7 /* SideMenuPanelContainerView.swift */; };
+		B8AA02531C06EF1100EB4D24 /* UdpBroadcasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8AA02521C06EF1100EB4D24 /* UdpBroadcasterViewController.swift */; };
+		B8AFA49B1C34566C00838E9A /* ReverseDns.m in Sources */ = {isa = PBXBuildFile; fileRef = B8AFA49A1C34566C00838E9A /* ReverseDns.m */; };
+		B8B5D14D1C46FF3500C9C635 /* ServiceMonitorOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B5D14C1C46FF3500C9C635 /* ServiceMonitorOptionsViewController.swift */; };
+		B8C366101C7BB76600A51647 /* StreamPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C3660F1C7BB76600A51647 /* StreamPlayerViewController.swift */; };
+		B8C366151C7BBED200A51647 /* libbz2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C366111C7BBED200A51647 /* libbz2.1.0.dylib */; };
+		B8C366161C7BBED200A51647 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C366121C7BBED200A51647 /* libiconv.2.dylib */; };
+		B8C366171C7BBED200A51647 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C366131C7BBED200A51647 /* libstdc++.6.0.9.dylib */; };
+		B8C366181C7BBED200A51647 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C366141C7BBED200A51647 /* libz.1.dylib */; };
+		B8C3661A1C7BBEF600A51647 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C366191C7BBEF600A51647 /* QuartzCore.framework */; };
+		B8C3661C1C7BBF0000A51647 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C3661B1C7BBF0000A51647 /* OpenGLES.framework */; };
+		B8C3661E1C7BBF0A00A51647 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C3661D1C7BBF0A00A51647 /* CFNetwork.framework */; };
+		B8C366201C7BBF1900A51647 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C3661F1C7BBF1900A51647 /* AudioToolbox.framework */; };
+		B8C366221C7BBF2500A51647 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C366211C7BBF2500A51647 /* CoreAudio.framework */; };
+		B8C366241C7BBF3000A51647 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C366231C7BBF3000A51647 /* MobileCoreServices.framework */; };
+		B8C366261C7BBF8D00A51647 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C366251C7BBF8D00A51647 /* MobileVLCKit.framework */; };
+		B8C8EA6F1C0305B30048DE73 /* UdpBroadcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C8EA6E1C0305B30048DE73 /* UdpBroadcaster.swift */; };
+		B8C956B11C1E4328008AE16E /* TcpServerMessageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C956B01C1E4328008AE16E /* TcpServerMessageInfo.swift */; };
+		B8C956B71C1E6C4B008AE16E /* TcpServerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C956B61C1E6C4B008AE16E /* TcpServerViewController.swift */; };
+		B8C956BD1C1E6E13008AE16E /* SideMenuPanelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C956BC1C1E6E13008AE16E /* SideMenuPanelViewController.swift */; };
+		B8C9D4EA1C6D2A4800D03D97 /* DetectedIpDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8C9D4E91C6D2A4800D03D97 /* DetectedIpDetailViewController.swift */; };
+		B8D1647B1C3CAF640070A2F0 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D1647A1C3CAF640070A2F0 /* SWXMLHash.swift */; };
+		B8D3B2471C06E955004B020F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B837F6901BE0379B00BE5347 /* Main.storyboard */; };
+		B8D4042A1C15728800439D10 /* TcpClientMessageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D404291C15728800439D10 /* TcpClientMessageInfo.swift */; };
+		B8D5A0001BF4777C003C0BC9 /* CONSTANTS.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D59FFF1BF4777C003C0BC9 /* CONSTANTS.swift */; };
+		B8D5A0021BF48D88003C0BC9 /* UdpListenerCapturedInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D5A0011BF48D88003C0BC9 /* UdpListenerCapturedInfoTableViewController.swift */; };
+		B8D6AA5D1BF5C90B000037C8 /* UdpListenerCapturedInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D6AA5C1BF5C90B000037C8 /* UdpListenerCapturedInfoTableViewCell.swift */; };
+		B8D6BB471C0E4B650064DA3C /* TcpClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D6BB461C0E4B650064DA3C /* TcpClient.swift */; };
+		B8D7BC1A1C6BFABD007076E7 /* PortScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D7BC191C6BFABD007076E7 /* PortScannerViewController.swift */; };
+		B8D7BC1C1C6C24F2007076E7 /* PortScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8D7BC1B1C6C24F2007076E7 /* PortScanner.swift */; };
+		B8DB53F61BEB3A7D002E658C /* ClassExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB53F51BEB3A7D002E658C /* ClassExtensions.swift */; };
+		B8DB53F81BEB4238002E658C /* NetworkUtilityToolSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DB53F71BEB4238002E658C /* NetworkUtilityToolSelectionViewController.swift */; };
+		B8DE4E8C1BEF3E4F0066731E /* NetwrokUtilityToolIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DE4E8B1BEF3E4F0066731E /* NetwrokUtilityToolIconView.swift */; };
+		B8E000C11C104688005DCC64 /* TcpClientOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E000C01C104688005DCC64 /* TcpClientOptionsViewController.swift */; };
+		B8E25E371BFFFAD700BFEE5E /* UdpListenerOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E25E361BFFFAD700BFEE5E /* UdpListenerOptionsView.swift */; };
+		B8E3E7631C6B1BE7007C8445 /* STUNClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E3E7621C6B1BE7007C8445 /* STUNClient.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B8F08B4F1C10D2AF000AE8F7 /* TcpClientOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F08B4E1C10D2AF000AE8F7 /* TcpClientOptionsView.swift */; };
+		B8F832DD1C085D74000E6A0A /* TcpClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F832DC1C085D74000E6A0A /* TcpClientViewController.swift */; };
+		B8F832E21C086482000E6A0A /* TcpClientMessageBlockBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F832E11C086482000E6A0A /* TcpClientMessageBlockBehavior.swift */; };
+		B8F832E61C0864C3000E6A0A /* TcpClientMessageBlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F832E51C0864C3000E6A0A /* TcpClientMessageBlockView.swift */; };
+		B8F832E81C098BF6000E6A0A /* TcpClientScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F832E71C098BF6000E6A0A /* TcpClientScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +96,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		566665A09B29B258E029FB81 /* Pods-NetworkUtilityTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkUtilityTools.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkUtilityTools/Pods-NetworkUtilityTools.release.xcconfig"; sourceTree = "<group>"; };
+		B802072C1C3762B000856461 /* UpnpCheckerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpnpCheckerViewController.swift; sourceTree = "<group>"; };
+		B802072E1C3762CF00856461 /* ServiceMonitorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceMonitorViewController.swift; sourceTree = "<group>"; };
+		B80207301C37636D00856461 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		B80207321C37682400856461 /* UpnpChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpnpChecker.swift; sourceTree = "<group>"; };
+		B80207341C37683800856461 /* ServiceMonitor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceMonitor.swift; sourceTree = "<group>"; };
+		B808F7081C26362F00133DE3 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		B81610F11C2B4C42008575DD /* TraceRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraceRoute.swift; sourceTree = "<group>"; };
+		B81748621C01AE5C00C9FE2C /* SwiftSpinner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftSpinner.swift; sourceTree = "<group>"; };
+		B81D910E1C29F66A004B85E8 /* PingResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingResult.swift; sourceTree = "<group>"; };
+		B82716301C288B25009F00BE /* UtilityFunctions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityFunctions.swift; sourceTree = "<group>"; };
+		B82716321C28C660009F00BE /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		B82716331C28C660009F00BE /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		B82716351C28C9E5009F00BE /* PingTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingTool.swift; sourceTree = "<group>"; };
 		B837F6891BE0379B00BE5347 /* NetworkUtilityTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetworkUtilityTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B837F68C1BE0379B00BE5347 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B837F68E1BE0379B00BE5347 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B837F68E1BE0379B00BE5347 /* UdpListenerOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdpListenerOptionsViewController.swift; sourceTree = "<group>"; };
 		B837F6911BE0379B00BE5347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B837F6931BE0379B00BE5347 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B837F6961BE0379B00BE5347 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +123,62 @@
 		B837F6A81BE0379B00BE5347 /* NetworkUtilityToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetworkUtilityToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B837F6AC1BE0379B00BE5347 /* NetworkUtilityToolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkUtilityToolsUITests.swift; sourceTree = "<group>"; };
 		B837F6AE1BE0379B00BE5347 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B837F6C61BE0394C00BE5347 /* NetworkUtilityTools-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NetworkUtilityTools-Bridging-Header.h"; sourceTree = "<group>"; };
+		B837F6C71BE0394D00BE5347 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		B837F6C81BE0394D00BE5347 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		B837F6C91BE0394D00BE5347 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		B837F6CA1BE0394D00BE5347 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		B837F6CD1BE03A0400BE5347 /* UdpListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdpListener.swift; sourceTree = "<group>"; };
+		B844B5921C54815B00ED4445 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		B84813F81C6B388900A28E32 /* WhatsMyIpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhatsMyIpViewController.swift; sourceTree = "<group>"; };
+		B8586A531C1D4DF700ABBA3D /* TcpServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpServer.swift; sourceTree = "<group>"; };
+		B85F3FDE1C2E824F00E2E0A1 /* PingToolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PingToolViewController.swift; sourceTree = "<group>"; };
+		B85F3FE01C2E827000E2E0A1 /* TraceRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TraceRouteViewController.swift; sourceTree = "<group>"; };
+		B880FF5A1BF33695008E6253 /* UdpCapturedInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdpCapturedInfo.swift; sourceTree = "<group>"; };
+		B893B9B91C1E6F8C00809BB7 /* SideMenuPanelContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuPanelContainerView.swift; sourceTree = "<group>"; };
+		B8AA02521C06EF1100EB4D24 /* UdpBroadcasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdpBroadcasterViewController.swift; sourceTree = "<group>"; };
+		B8AFA49A1C34566C00838E9A /* ReverseDns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReverseDns.m; sourceTree = "<group>"; };
+		B8AFA49C1C34567F00838E9A /* ReverseDns.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReverseDns.h; sourceTree = "<group>"; };
+		B8B5D14C1C46FF3500C9C635 /* ServiceMonitorOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceMonitorOptionsViewController.swift; sourceTree = "<group>"; };
+		B8C3660F1C7BB76600A51647 /* StreamPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StreamPlayerViewController.swift; sourceTree = "<group>"; };
+		B8C366111C7BBED200A51647 /* libbz2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.1.0.dylib; path = ../../../../../usr/lib/libbz2.1.0.dylib; sourceTree = "<group>"; };
+		B8C366121C7BBED200A51647 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = ../../../../../usr/lib/libiconv.2.dylib; sourceTree = "<group>"; };
+		B8C366131C7BBED200A51647 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		B8C366141C7BBED200A51647 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		B8C366191C7BBEF600A51647 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B8C3661B1C7BBF0000A51647 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B8C3661D1C7BBF0A00A51647 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		B8C3661F1C7BBF1900A51647 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		B8C366211C7BBF2500A51647 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B8C366231C7BBF3000A51647 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		B8C366251C7BBF8D00A51647 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileVLCKit.framework; sourceTree = "<group>"; };
+		B8C8EA6E1C0305B30048DE73 /* UdpBroadcaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdpBroadcaster.swift; sourceTree = "<group>"; };
+		B8C956B01C1E4328008AE16E /* TcpServerMessageInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpServerMessageInfo.swift; sourceTree = "<group>"; };
+		B8C956B61C1E6C4B008AE16E /* TcpServerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpServerViewController.swift; sourceTree = "<group>"; };
+		B8C956BC1C1E6E13008AE16E /* SideMenuPanelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuPanelViewController.swift; sourceTree = "<group>"; };
+		B8C9D4E91C6D2A4800D03D97 /* DetectedIpDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetectedIpDetailViewController.swift; sourceTree = "<group>"; };
+		B8D1647A1C3CAF640070A2F0 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
+		B8D404291C15728800439D10 /* TcpClientMessageInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClientMessageInfo.swift; sourceTree = "<group>"; };
+		B8D59FFF1BF4777C003C0BC9 /* CONSTANTS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CONSTANTS.swift; sourceTree = "<group>"; };
+		B8D5A0011BF48D88003C0BC9 /* UdpListenerCapturedInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdpListenerCapturedInfoTableViewController.swift; sourceTree = "<group>"; };
+		B8D6AA5C1BF5C90B000037C8 /* UdpListenerCapturedInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdpListenerCapturedInfoTableViewCell.swift; sourceTree = "<group>"; };
+		B8D6BB461C0E4B650064DA3C /* TcpClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClient.swift; sourceTree = "<group>"; };
+		B8D7BC191C6BFABD007076E7 /* PortScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortScannerViewController.swift; sourceTree = "<group>"; };
+		B8D7BC1B1C6C24F2007076E7 /* PortScanner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortScanner.swift; sourceTree = "<group>"; };
+		B8DB53F51BEB3A7D002E658C /* ClassExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassExtensions.swift; sourceTree = "<group>"; };
+		B8DB53F71BEB4238002E658C /* NetworkUtilityToolSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtilityToolSelectionViewController.swift; sourceTree = "<group>"; };
+		B8DE4E8B1BEF3E4F0066731E /* NetwrokUtilityToolIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetwrokUtilityToolIconView.swift; sourceTree = "<group>"; };
+		B8E000C01C104688005DCC64 /* TcpClientOptionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClientOptionsViewController.swift; sourceTree = "<group>"; };
+		B8E25E361BFFFAD700BFEE5E /* UdpListenerOptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UdpListenerOptionsView.swift; sourceTree = "<group>"; };
+		B8E3E7611C6B1BE7007C8445 /* STUNClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STUNClient.h; sourceTree = "<group>"; };
+		B8E3E7621C6B1BE7007C8445 /* STUNClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STUNClient.m; sourceTree = "<group>"; };
+		B8F08B4E1C10D2AF000AE8F7 /* TcpClientOptionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClientOptionsView.swift; sourceTree = "<group>"; };
+		B8F832DC1C085D74000E6A0A /* TcpClientViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClientViewController.swift; sourceTree = "<group>"; };
+		B8F832E11C086482000E6A0A /* TcpClientMessageBlockBehavior.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClientMessageBlockBehavior.swift; sourceTree = "<group>"; };
+		B8F832E51C0864C3000E6A0A /* TcpClientMessageBlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClientMessageBlockView.swift; sourceTree = "<group>"; };
+		B8F832E71C098BF6000E6A0A /* TcpClientScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TcpClientScrollView.swift; sourceTree = "<group>"; };
+		D3446A9570B36A56379B8684 /* Pods-NetworkUtilityTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetworkUtilityTools.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetworkUtilityTools/Pods-NetworkUtilityTools.debug.xcconfig"; sourceTree = "<group>"; };
+		DA4433F6AFB6AC3DEC1F247E /* Pods_NetworkUtilityTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NetworkUtilityTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +186,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8C366261C7BBF8D00A51647 /* MobileVLCKit.framework in Frameworks */,
+				B8C366241C7BBF3000A51647 /* MobileCoreServices.framework in Frameworks */,
+				B8C366221C7BBF2500A51647 /* CoreAudio.framework in Frameworks */,
+				B8C366201C7BBF1900A51647 /* AudioToolbox.framework in Frameworks */,
+				B8C3661E1C7BBF0A00A51647 /* CFNetwork.framework in Frameworks */,
+				B8C3661C1C7BBF0000A51647 /* OpenGLES.framework in Frameworks */,
+				B8C3661A1C7BBEF600A51647 /* QuartzCore.framework in Frameworks */,
+				B8C366151C7BBED200A51647 /* libbz2.1.0.dylib in Frameworks */,
+				B8C366161C7BBED200A51647 /* libiconv.2.dylib in Frameworks */,
+				B8C366171C7BBED200A51647 /* libstdc++.6.0.9.dylib in Frameworks */,
+				B8C366181C7BBED200A51647 /* libz.1.dylib in Frameworks */,
+				B844B5931C54815B00ED4445 /* iAd.framework in Frameworks */,
+				5414384E4390590E4553F590 /* Pods_NetworkUtilityTools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +219,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B802072A1C37627500856461 /* UpnpChecker */ = {
+			isa = PBXGroup;
+			children = (
+				B802072C1C3762B000856461 /* UpnpCheckerViewController.swift */,
+			);
+			name = UpnpChecker;
+			sourceTree = "<group>";
+		};
+		B802072B1C37628100856461 /* ServiceMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				B802072E1C3762CF00856461 /* ServiceMonitorViewController.swift */,
+				B8B5D14C1C46FF3500C9C635 /* ServiceMonitorOptionsViewController.swift */,
+			);
+			name = ServiceMonitor;
+			sourceTree = "<group>";
+		};
 		B837F6801BE0379B00BE5347 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +243,8 @@
 				B837F6A01BE0379B00BE5347 /* NetworkUtilityToolsTests */,
 				B837F6AB1BE0379B00BE5347 /* NetworkUtilityToolsUITests */,
 				B837F68A1BE0379B00BE5347 /* Products */,
+				F0B1483EA034856CCA355A92 /* Pods */,
+				CE0381FC89776EE4BDAD3CC4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +261,12 @@
 		B837F68B1BE0379B00BE5347 /* NetworkUtilityTools */ = {
 			isa = PBXGroup;
 			children = (
-				B837F68C1BE0379B00BE5347 /* AppDelegate.swift */,
-				B837F68E1BE0379B00BE5347 /* ViewController.swift */,
-				B837F6901BE0379B00BE5347 /* Main.storyboard */,
-				B837F6931BE0379B00BE5347 /* Assets.xcassets */,
-				B837F6951BE0379B00BE5347 /* LaunchScreen.storyboard */,
-				B837F6981BE0379B00BE5347 /* Info.plist */,
+				B837F6BB1BE037CD00BE5347 /* Models */,
+				B837F6BC1BE037DB00BE5347 /* Views */,
+				B837F6BD1BE037E100BE5347 /* Controllers */,
+				B8DB53F41BEB39F3002E658C /* Utility */,
+				B880FF591BF3362D008E6253 /* TypeClass */,
+				B837F6BA1BE037A200BE5347 /* Supporting Files */,
 			);
 			path = NetworkUtilityTools;
 			sourceTree = "<group>";
@@ -125,6 +289,233 @@
 			path = NetworkUtilityToolsUITests;
 			sourceTree = "<group>";
 		};
+		B837F6BA1BE037A200BE5347 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B837F6C51BE0393C00BE5347 /* Lib */,
+				B837F68C1BE0379B00BE5347 /* AppDelegate.swift */,
+				B837F6C61BE0394C00BE5347 /* NetworkUtilityTools-Bridging-Header.h */,
+				B837F6981BE0379B00BE5347 /* Info.plist */,
+				B837F6951BE0379B00BE5347 /* LaunchScreen.storyboard */,
+				B837F6931BE0379B00BE5347 /* Assets.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B837F6BB1BE037CD00BE5347 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B837F6CD1BE03A0400BE5347 /* UdpListener.swift */,
+				B8C8EA6E1C0305B30048DE73 /* UdpBroadcaster.swift */,
+				B8D6BB461C0E4B650064DA3C /* TcpClient.swift */,
+				B8586A531C1D4DF700ABBA3D /* TcpServer.swift */,
+				B82716351C28C9E5009F00BE /* PingTool.swift */,
+				B81610F11C2B4C42008575DD /* TraceRoute.swift */,
+				B80207321C37682400856461 /* UpnpChecker.swift */,
+				B80207341C37683800856461 /* ServiceMonitor.swift */,
+				B8D7BC1B1C6C24F2007076E7 /* PortScanner.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B837F6BC1BE037DB00BE5347 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8C956B21C1E6275008AE16E /* TcpServer */,
+				B8F832DE1C086372000E6A0A /* TcpClient */,
+				B8E25E341BFFFA2400BFEE5E /* UdpListener */,
+				B837F6901BE0379B00BE5347 /* Main.storyboard */,
+				B8DE4E8B1BEF3E4F0066731E /* NetwrokUtilityToolIconView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B837F6BD1BE037E100BE5347 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B84813F71C6B386800A28E32 /* PortScanner */,
+				B84813F61C6B385D00A28E32 /* WhatsMyIp */,
+				B802072B1C37628100856461 /* ServiceMonitor */,
+				B802072A1C37627500856461 /* UpnpChecker */,
+				B85F3FDD1C2E822100E2E0A1 /* TraceRoute */,
+				B85F3FDC1C2E821600E2E0A1 /* PingTool */,
+				B8C956B31C1E6B8B008AE16E /* TcpServer */,
+				B8F832DB1C085D4D000E6A0A /* TcpClient */,
+				B8AA02511C06EEBC00EB4D24 /* UdpBroadcaster */,
+				B8E25E351BFFFA3800BFEE5E /* UdpListener */,
+				B8DB53F71BEB4238002E658C /* NetworkUtilityToolSelectionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		B837F6C51BE0393C00BE5347 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				B8E3E7611C6B1BE7007C8445 /* STUNClient.h */,
+				B8E3E7621C6B1BE7007C8445 /* STUNClient.m */,
+				B8D1647A1C3CAF640070A2F0 /* SWXMLHash.swift */,
+				B80207301C37636D00856461 /* Reachability.swift */,
+				B82716321C28C660009F00BE /* SimplePing.h */,
+				B82716331C28C660009F00BE /* SimplePing.m */,
+				B837F6C71BE0394D00BE5347 /* GCDAsyncSocket.h */,
+				B837F6C81BE0394D00BE5347 /* GCDAsyncSocket.m */,
+				B837F6C91BE0394D00BE5347 /* GCDAsyncUdpSocket.h */,
+				B837F6CA1BE0394D00BE5347 /* GCDAsyncUdpSocket.m */,
+				B81748621C01AE5C00C9FE2C /* SwiftSpinner.swift */,
+				B8AFA49A1C34566C00838E9A /* ReverseDns.m */,
+				B8AFA49C1C34567F00838E9A /* ReverseDns.h */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		B84813F61C6B385D00A28E32 /* WhatsMyIp */ = {
+			isa = PBXGroup;
+			children = (
+				B84813F81C6B388900A28E32 /* WhatsMyIpViewController.swift */,
+			);
+			name = WhatsMyIp;
+			sourceTree = "<group>";
+		};
+		B84813F71C6B386800A28E32 /* PortScanner */ = {
+			isa = PBXGroup;
+			children = (
+				B8D7BC191C6BFABD007076E7 /* PortScannerViewController.swift */,
+				B8C9D4E91C6D2A4800D03D97 /* DetectedIpDetailViewController.swift */,
+				B8C3660F1C7BB76600A51647 /* StreamPlayerViewController.swift */,
+			);
+			name = PortScanner;
+			sourceTree = "<group>";
+		};
+		B85F3FDC1C2E821600E2E0A1 /* PingTool */ = {
+			isa = PBXGroup;
+			children = (
+				B85F3FDE1C2E824F00E2E0A1 /* PingToolViewController.swift */,
+			);
+			name = PingTool;
+			sourceTree = "<group>";
+		};
+		B85F3FDD1C2E822100E2E0A1 /* TraceRoute */ = {
+			isa = PBXGroup;
+			children = (
+				B85F3FE01C2E827000E2E0A1 /* TraceRouteViewController.swift */,
+			);
+			name = TraceRoute;
+			sourceTree = "<group>";
+		};
+		B880FF591BF3362D008E6253 /* TypeClass */ = {
+			isa = PBXGroup;
+			children = (
+				B880FF5A1BF33695008E6253 /* UdpCapturedInfo.swift */,
+				B8D404291C15728800439D10 /* TcpClientMessageInfo.swift */,
+				B8C956B01C1E4328008AE16E /* TcpServerMessageInfo.swift */,
+				B81D910E1C29F66A004B85E8 /* PingResult.swift */,
+			);
+			name = TypeClass;
+			sourceTree = "<group>";
+		};
+		B8AA02511C06EEBC00EB4D24 /* UdpBroadcaster */ = {
+			isa = PBXGroup;
+			children = (
+				B8AA02521C06EF1100EB4D24 /* UdpBroadcasterViewController.swift */,
+			);
+			name = UdpBroadcaster;
+			sourceTree = "<group>";
+		};
+		B8C956B21C1E6275008AE16E /* TcpServer */ = {
+			isa = PBXGroup;
+			children = (
+				B893B9B91C1E6F8C00809BB7 /* SideMenuPanelContainerView.swift */,
+			);
+			name = TcpServer;
+			sourceTree = "<group>";
+		};
+		B8C956B31C1E6B8B008AE16E /* TcpServer */ = {
+			isa = PBXGroup;
+			children = (
+				B8C956B61C1E6C4B008AE16E /* TcpServerViewController.swift */,
+				B8C956BC1C1E6E13008AE16E /* SideMenuPanelViewController.swift */,
+			);
+			name = TcpServer;
+			sourceTree = "<group>";
+		};
+		B8DB53F41BEB39F3002E658C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				B8DB53F51BEB3A7D002E658C /* ClassExtensions.swift */,
+				B8D59FFF1BF4777C003C0BC9 /* CONSTANTS.swift */,
+				B808F7081C26362F00133DE3 /* Protocols.swift */,
+				B82716301C288B25009F00BE /* UtilityFunctions.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		B8E25E341BFFFA2400BFEE5E /* UdpListener */ = {
+			isa = PBXGroup;
+			children = (
+				B8D6AA5C1BF5C90B000037C8 /* UdpListenerCapturedInfoTableViewCell.swift */,
+				B8E25E361BFFFAD700BFEE5E /* UdpListenerOptionsView.swift */,
+			);
+			name = UdpListener;
+			sourceTree = "<group>";
+		};
+		B8E25E351BFFFA3800BFEE5E /* UdpListener */ = {
+			isa = PBXGroup;
+			children = (
+				B8D5A0011BF48D88003C0BC9 /* UdpListenerCapturedInfoTableViewController.swift */,
+				B837F68E1BE0379B00BE5347 /* UdpListenerOptionsViewController.swift */,
+			);
+			name = UdpListener;
+			sourceTree = "<group>";
+		};
+		B8F832DB1C085D4D000E6A0A /* TcpClient */ = {
+			isa = PBXGroup;
+			children = (
+				B8F832DC1C085D74000E6A0A /* TcpClientViewController.swift */,
+				B8E000C01C104688005DCC64 /* TcpClientOptionsViewController.swift */,
+			);
+			name = TcpClient;
+			sourceTree = "<group>";
+		};
+		B8F832DE1C086372000E6A0A /* TcpClient */ = {
+			isa = PBXGroup;
+			children = (
+				B8F832E11C086482000E6A0A /* TcpClientMessageBlockBehavior.swift */,
+				B8F832E51C0864C3000E6A0A /* TcpClientMessageBlockView.swift */,
+				B8F832E71C098BF6000E6A0A /* TcpClientScrollView.swift */,
+				B8F08B4E1C10D2AF000AE8F7 /* TcpClientOptionsView.swift */,
+			);
+			name = TcpClient;
+			sourceTree = "<group>";
+		};
+		CE0381FC89776EE4BDAD3CC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8C366251C7BBF8D00A51647 /* MobileVLCKit.framework */,
+				B8C366231C7BBF3000A51647 /* MobileCoreServices.framework */,
+				B8C366211C7BBF2500A51647 /* CoreAudio.framework */,
+				B8C3661F1C7BBF1900A51647 /* AudioToolbox.framework */,
+				B8C3661D1C7BBF0A00A51647 /* CFNetwork.framework */,
+				B8C3661B1C7BBF0000A51647 /* OpenGLES.framework */,
+				B8C366191C7BBEF600A51647 /* QuartzCore.framework */,
+				B8C366111C7BBED200A51647 /* libbz2.1.0.dylib */,
+				B8C366121C7BBED200A51647 /* libiconv.2.dylib */,
+				B8C366131C7BBED200A51647 /* libstdc++.6.0.9.dylib */,
+				B8C366141C7BBED200A51647 /* libz.1.dylib */,
+				B844B5921C54815B00ED4445 /* iAd.framework */,
+				DA4433F6AFB6AC3DEC1F247E /* Pods_NetworkUtilityTools.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0B1483EA034856CCA355A92 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3446A9570B36A56379B8684 /* Pods-NetworkUtilityTools.debug.xcconfig */,
+				566665A09B29B258E029FB81 /* Pods-NetworkUtilityTools.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +523,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B837F6B11BE0379B00BE5347 /* Build configuration list for PBXNativeTarget "NetworkUtilityTools" */;
 			buildPhases = (
+				68C0F3F09DB5149258A353BC /* Check Pods Manifest.lock */,
 				B837F6851BE0379B00BE5347 /* Sources */,
 				B837F6861BE0379B00BE5347 /* Frameworks */,
 				B837F6871BE0379B00BE5347 /* Resources */,
+				E10F2036C0931D50DABC29EA /* Embed Pods Frameworks */,
+				C3DCB0190CB01C23251302D1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +587,12 @@
 				TargetAttributes = {
 					B837F6881BE0379B00BE5347 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = FX3X9EUZ62;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					B837F69C1BE0379B00BE5347 = {
 						CreatedOnToolsVersion = 7.1;
@@ -229,9 +629,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D3B2471C06E955004B020F /* Main.storyboard in Resources */,
 				B837F6971BE0379B00BE5347 /* LaunchScreen.storyboard in Resources */,
 				B837F6941BE0379B00BE5347 /* Assets.xcassets in Resources */,
-				B837F6921BE0379B00BE5347 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +651,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		68C0F3F09DB5149258A353BC /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C3DCB0190CB01C23251302D1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetworkUtilityTools/Pods-NetworkUtilityTools-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E10F2036C0931D50DABC29EA /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetworkUtilityTools/Pods-NetworkUtilityTools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B837F6851BE0379B00BE5347 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B837F68F1BE0379B00BE5347 /* ViewController.swift in Sources */,
+				B8C9D4EA1C6D2A4800D03D97 /* DetectedIpDetailViewController.swift in Sources */,
+				B8AFA49B1C34566C00838E9A /* ReverseDns.m in Sources */,
+				B8C956B11C1E4328008AE16E /* TcpServerMessageInfo.swift in Sources */,
+				B8F832E81C098BF6000E6A0A /* TcpClientScrollView.swift in Sources */,
+				B8D6AA5D1BF5C90B000037C8 /* UdpListenerCapturedInfoTableViewCell.swift in Sources */,
+				B8C956BD1C1E6E13008AE16E /* SideMenuPanelViewController.swift in Sources */,
+				B8586A541C1D4DF700ABBA3D /* TcpServer.swift in Sources */,
+				B84813F91C6B388900A28E32 /* WhatsMyIpViewController.swift in Sources */,
+				B8E3E7631C6B1BE7007C8445 /* STUNClient.m in Sources */,
+				B8E000C11C104688005DCC64 /* TcpClientOptionsViewController.swift in Sources */,
+				B8B5D14D1C46FF3500C9C635 /* ServiceMonitorOptionsViewController.swift in Sources */,
+				B802072D1C3762B000856461 /* UpnpCheckerViewController.swift in Sources */,
+				B8F08B4F1C10D2AF000AE8F7 /* TcpClientOptionsView.swift in Sources */,
+				B802072F1C3762CF00856461 /* ServiceMonitorViewController.swift in Sources */,
+				B8C8EA6F1C0305B30048DE73 /* UdpBroadcaster.swift in Sources */,
+				B82716361C28C9E5009F00BE /* PingTool.swift in Sources */,
+				B8DE4E8C1BEF3E4F0066731E /* NetwrokUtilityToolIconView.swift in Sources */,
+				B8D1647B1C3CAF640070A2F0 /* SWXMLHash.swift in Sources */,
+				B81D910F1C29F66A004B85E8 /* PingResult.swift in Sources */,
+				B81610F21C2B4C42008575DD /* TraceRoute.swift in Sources */,
+				B80207351C37683800856461 /* ServiceMonitor.swift in Sources */,
+				B837F6CE1BE03A0400BE5347 /* UdpListener.swift in Sources */,
+				B81748631C01AE5C00C9FE2C /* SwiftSpinner.swift in Sources */,
+				B82716311C288B25009F00BE /* UtilityFunctions.swift in Sources */,
+				B80207331C37682400856461 /* UpnpChecker.swift in Sources */,
+				B8C956B71C1E6C4B008AE16E /* TcpServerViewController.swift in Sources */,
+				B893B9BA1C1E6F8C00809BB7 /* SideMenuPanelContainerView.swift in Sources */,
+				B8D5A0021BF48D88003C0BC9 /* UdpListenerCapturedInfoTableViewController.swift in Sources */,
+				B8DB53F61BEB3A7D002E658C /* ClassExtensions.swift in Sources */,
+				B808F7091C26362F00133DE3 /* Protocols.swift in Sources */,
+				B8DB53F81BEB4238002E658C /* NetworkUtilityToolSelectionViewController.swift in Sources */,
+				B880FF5B1BF33695008E6253 /* UdpCapturedInfo.swift in Sources */,
+				B8D4042A1C15728800439D10 /* TcpClientMessageInfo.swift in Sources */,
+				B8F832E61C0864C3000E6A0A /* TcpClientMessageBlockView.swift in Sources */,
+				B8F832E21C086482000E6A0A /* TcpClientMessageBlockBehavior.swift in Sources */,
+				B8F832DD1C085D74000E6A0A /* TcpClientViewController.swift in Sources */,
+				B85F3FDF1C2E824F00E2E0A1 /* PingToolViewController.swift in Sources */,
+				B837F6CC1BE0394D00BE5347 /* GCDAsyncUdpSocket.m in Sources */,
+				B8E25E371BFFFAD700BFEE5E /* UdpListenerOptionsView.swift in Sources */,
+				B80207311C37636D00856461 /* Reachability.swift in Sources */,
+				B85F3FE11C2E827000E2E0A1 /* TraceRouteViewController.swift in Sources */,
+				B8D7BC1A1C6BFABD007076E7 /* PortScannerViewController.swift in Sources */,
+				B8AA02531C06EF1100EB4D24 /* UdpBroadcasterViewController.swift in Sources */,
+				B8C366101C7BB76600A51647 /* StreamPlayerViewController.swift in Sources */,
+				B837F6CB1BE0394D00BE5347 /* GCDAsyncSocket.m in Sources */,
+				B8D5A0001BF4777C003C0BC9 /* CONSTANTS.swift in Sources */,
+				B8D7BC1C1C6C24F2007076E7 /* PortScanner.swift in Sources */,
+				B837F68F1BE0379B00BE5347 /* UdpListenerOptionsViewController.swift in Sources */,
 				B837F68D1BE0379B00BE5347 /* AppDelegate.swift in Sources */,
+				B8D6BB471C0E4B650064DA3C /* TcpClient.swift in Sources */,
+				B82716341C28C660009F00BE /* SimplePing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +894,55 @@
 		};
 		B837F6B21BE0379B00BE5347 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3446A9570B36A56379B8684 /* Pods-NetworkUtilityTools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NetworkUtilityTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pengyanb.NetworkUtilityTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetworkUtilityTools/NetworkUtilityTools-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		B837F6B31BE0379B00BE5347 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 566665A09B29B258E029FB81 /* Pods-NetworkUtilityTools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libstdc++";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NetworkUtilityTools/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.pengyanb.NetworkUtilityTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "NetworkUtilityTools/NetworkUtilityTools-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -484,6 +1013,7 @@
 				B837F6B31BE0379B00BE5347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B837F6B41BE0379B00BE5347 /* Build configuration list for PBXNativeTarget "NetworkUtilityToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +1022,7 @@
 				B837F6B61BE0379B00BE5347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B837F6B71BE0379B00BE5347 /* Build configuration list for PBXNativeTarget "NetworkUtilityToolsUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +1031,7 @@
 				B837F6B91BE0379B00BE5347 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

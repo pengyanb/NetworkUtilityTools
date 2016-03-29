@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,8 +18,35 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Peng" translatesAutoresizingMaskIntoConstraints="NO" id="alZ-Mv-Fkg">
+                                <rect key="frame" x="150" y="225" width="300" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="alZ-Mv-Fkg" secondAttribute="height" multiplier="2:1" id="h5T-ue-57u"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2015. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zlg-br-w2G">
+                                <rect key="frame" x="0.0" y="572" width="600" height="20"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="alZ-Mv-Fkg" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="3ec-xU-5HP"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Zlg-br-w2G" secondAttribute="bottom" constant="8" symbolic="YES" id="BsP-4D-8j8"/>
+                            <constraint firstItem="alZ-Mv-Fkg" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" multiplier="1:4" id="fdA-7f-xgo"/>
+                            <constraint firstItem="alZ-Mv-Fkg" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="1:2" id="hgH-gb-KbY"/>
+                            <constraint firstItem="Zlg-br-w2G" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qp6-Z3-AcQ"/>
+                            <constraint firstItem="Zlg-br-w2G" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="rpY-Ia-3E7"/>
+                            <constraint firstItem="alZ-Mv-Fkg" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="xY6-4R-Pbf"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="fdA-7f-xgo"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +54,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Peng" width="500" height="250"/>
+    </resources>
 </document>

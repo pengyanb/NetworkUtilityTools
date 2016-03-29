@@ -1,0 +1,19 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.0.5)
+  - Google-Mobile-Ads-SDK (7.6.0)
+  - PNChart (0.8.7):
+    - UICountingLabel (~> 1.2.0)
+  - UICountingLabel (1.2.0)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - Google-Mobile-Ads-SDK
+  - PNChart
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 8312778b6815578e6a86d630fbcf31dc94c534e7
+  Google-Mobile-Ads-SDK: 0290020329c61183c4685304264b73382bc49fb4
+  PNChart: c1755716bbd45386d2035b2bf2ce73e6d3f8cb22
+  UICountingLabel: 1db4e7d023e1762171eb226d6dff47a7a84f27aa
+
+COCOAPODS: 0.39.0
