@@ -128,7 +128,7 @@ class NetworkUtilityToolSelectionViewController: UIViewController, ADBannerViewD
     //MARK: -Custom functions
     private func initAdMob(){
         bannerView.delegate = self
-        bannerView.adUnitID = "ca-app-pub-3199275288482759/6354870626"
+        bannerView.adUnitID = "2077ef9a63d2b398840261c8221a0c9b"
         bannerView.rootViewController = self
         bannerView.adSize = kGADAdSizeSmartBannerPortrait
         
@@ -139,7 +139,7 @@ class NetworkUtilityToolSelectionViewController: UIViewController, ADBannerViewD
             self.interstitial.delegate = nil
             self.interstitial = nil
         }
-        self.interstitial = GADInterstitial(adUnitID: "ca-app-pub-3199275288482759/3489985829")
+        self.interstitial = GADInterstitial(adUnitID: "2077ef9a63d2b398840261c8221a0c9b")
         self.interstitial.delegate = self
         let request = GADRequest()
         //request.testDevices = ["2077ef9a63d2b398840261c8221a0c9b"]
